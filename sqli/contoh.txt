@@ -1,7 +1,7 @@
-level 1
+challenge1
 'or'1'='1
 
-level 2 
+challenge
 ORDER BY 1-- -
 
 level 3 
